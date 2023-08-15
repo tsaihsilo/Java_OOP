@@ -75,19 +75,19 @@ public class CarFleet {
         return outputList;
     }
 
-    public static void main(String[] args){
-        // Car c1 = new Car(1, 3, 5.5f);
-        // Car c2 = new Car(2, 2, 5.5f);
-        Car c3 = new Car(3, 1, 5.5f);
-        Queue<Integer> q = new Queue<>();
-        q.enqueue(1);
-        q.enqueue(2);
-        q.enqueue(3);
-        CarFleet cf = new CarFleet();
-        cf.addCar(c3);
-        for (Car i: cf.processRequests(q)){
-            System.out.println(i.toString());
-        }
-    }
+    // public static void main(String[] args){
+    //     Car c1 = new Car(1, 3, 5.5f);
+    //     Car c2 = new Car(2, 2, 5.5f);
+    //     Car c3 = new Car(3, 1, 5.5f);
+    //     Queue<Integer> q = new Queue<>();
+    //     q.enqueue(1);
+    //     q.enqueue(2);
+    //     q.enqueue(3);
+    //     CarFleet cf = new CarFleet();
+    //     cf.addCar(c3);
+    //     for (Car i: cf.processRequests(q)){
+    //         System.out.println(i.toString());
+    //     }
+    // }
     
 }
